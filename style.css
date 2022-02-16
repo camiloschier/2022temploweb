@@ -500,14 +500,13 @@ p {
   height: 1.5rem;
 }
 
-/* boton wp */
-.boton-wp {
-  width: 90px;
-  height: 100px;
-  right: 0;
-  bottom: 0;
+/* BOTON WP */
+.boton-wp img {
+  width: 60px;
+  height: 90px;
+  left: 20px;
+  bottom: 90px;
   position: fixed;
-  padding: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -588,11 +587,11 @@ p {
   }
 
   /* boton wp */
-  .boton-wp {
+  .boton-wp img {
     width: 90px;
     height: 100px;
-    right: 0;
-    bottom: 0;
+    left: 20px;
+    bottom: 20px;
     position: fixed;
     padding: 20px;
   }
