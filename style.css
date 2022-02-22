@@ -1,7 +1,7 @@
 /* ********** Custom Properties ********** */
 :root {
   --first-color: #cac146;
-  --first-alpha-color: rgb(220, 235, 4);
+  --first-alpha-color: rgba(219, 235, 4, 0.75);
   --second-color: #070707;
   --second-alpha-color: rgba(8, 8, 8, 0.75);
   --third-color: #403f41;
@@ -16,7 +16,7 @@
   --text-color: #222;
   --white-alpha-color: rgba(255, 255, 255, 0.5);
   --black-alpha-color: rgba(0, 0, 0, 0.5);
-  --font: "Montserrat", sans-serif;
+  --font: "Raleway", sans-serif;
   --max-width: 1200px;
   --header-height: 4rem;
 }
