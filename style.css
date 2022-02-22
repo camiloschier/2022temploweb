@@ -57,7 +57,7 @@ h1 {
 
 h2 {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 h3 {
@@ -72,12 +72,12 @@ h4 {
 
 h5 {
   margin: 0;
-  font-size: 0.85rem;
+  font-size: 1.5rem;
 }
 
 h6 {
   margin: 0;
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 img {
@@ -425,8 +425,9 @@ p {
   color: var(--title-color);
 }
 
-.service-card svg {
-  margin-bottom: 1.25rem;
+.service-card > svg {
+  width: 2rem;
+  height: 2rem;
   fill: var(--first-color);
 }
 
