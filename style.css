@@ -355,6 +355,11 @@ p {
   .text-lg-right {
     text-align: right;
   }
+
+  .btn {
+    width: 250px;
+    height: 75px;
+  }
 }
 
 /* ********** Site Styles ********** */
@@ -487,6 +492,8 @@ p {
 
   .video video {
     display: inline;
+    width: auto;
+    height: 80vh;
   }
 }
 
@@ -532,5 +539,7 @@ p {
   }
   .video video {
     display: inline;
+    width: auto;
+    height: 80vh;
   }
 }
