@@ -330,6 +330,10 @@ p {
   text-align: right;
 }
 
+#ocultar-video video {
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
   .box-shadow-1 {
     align-items: center;
@@ -431,6 +435,10 @@ p {
   fill: var(--first-color);
 }
 
+.video video {
+  display: none;
+}
+
 /* BOTON WP */
 .boton-wp img {
   width: 60px;
@@ -476,6 +484,10 @@ p {
   .services .section-title {
     grid-column: span 2;
   }
+
+  .video video {
+    display: inline;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -517,5 +529,8 @@ p {
 
   .services .section-title {
     grid-column: span 3;
+  }
+  .video video {
+    display: inline;
   }
 }
