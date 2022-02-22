@@ -258,6 +258,10 @@ p {
   .menu a:hover {
     background-color: transparent;
   }
+
+  .home a {
+    font-size: 30px;
+  }
 }
 
 /* ********** Utilities ********** */
@@ -449,6 +453,14 @@ p {
   width: 60px;
   height: 90px;
   left: 20px;
+  bottom: 90px;
+  position: fixed;
+}
+
+.boton-wp a {
+  width: 60px;
+  height: 90px;
+  left: 90px;
   bottom: 90px;
   position: fixed;
 }
