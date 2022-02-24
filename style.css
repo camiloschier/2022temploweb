@@ -1,7 +1,7 @@
 /* ********** Custom Properties ********** */
 :root {
   --first-color: #dacf3a;
-  --first-alpha-color: rgba(217, 0, 98, 0.75);
+  --first-alpha-color: #dacf3a;
   --second-color: #222222;
   --second-alpha-color: rgba(49, 49, 49, 0.75);
   --third-color: #000000;
@@ -452,6 +452,8 @@ p {
 }
 
 .header {
+  /* transform: translate3d(0, 0, 0);
+  top: 0; */
   position: fixed;
   left: 0;
   bottom: 0;
