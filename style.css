@@ -1,13 +1,13 @@
 /* ********** Custom Properties ********** */
 :root {
-  --first-color: #cac146;
-  --first-alpha-color: rgba(219, 235, 4, 0.75);
-  --second-color: #070707;
-  --second-alpha-color: rgba(8, 8, 8, 0.75);
-  --third-color: #403f41;
-  --third-alpha-color: rgba(81, 81, 82, 0.75);
+  --first-color: #dacf3a;
+  --first-alpha-color: rgba(217, 0, 98, 0.75);
+  --second-color: #222222;
+  --second-alpha-color: rgba(49, 49, 49, 0.75);
+  --third-color: #000000;
+  --third-alpha-color: rgba(80, 20, 100, 0.75);
   --white-color: #fff;
-  --gray-light-color: #f3f3f3;
+  --gray-light-color: #858585;
   --gray-color: #ccc;
   --gray-dark-color: #666;
   --black-color: #000;
@@ -16,7 +16,7 @@
   --text-color: #222;
   --white-alpha-color: rgba(255, 255, 255, 0.5);
   --black-alpha-color: rgba(0, 0, 0, 0.5);
-  --font: "Raleway", sans-serif;
+  --font: "El Messiri", "Monserrat";
   --max-width: 1200px;
   --header-height: 4rem;
 }
@@ -57,7 +57,7 @@ h1 {
 
 h2 {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 h3 {
@@ -72,12 +72,12 @@ h4 {
 
 h5 {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 0.85rem;
 }
 
 h6 {
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 img {
@@ -108,6 +108,10 @@ p {
   75% {
     transform: translateX(-75%);
   }
+}
+
+.slide {
+  width: 100%;
 }
 
 .carousel {
@@ -166,6 +170,23 @@ p {
   background-color: var(--gray-dark-color);
 }
 
+.modal-window {
+  background-color: black;
+  color: white;
+  /* position: absolute; */
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.5;
+  display: none;
+}
+
+.modal-window:target {
+  display: block;
+}
+
 /* ********** HeroImage ********** */
 .hero-image {
   background-image: var(--hero-image);
@@ -177,7 +198,7 @@ p {
 
 .hero-image-opacity {
   width: 100%;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,6 +211,9 @@ p {
   color: var(--hero-text-color);
 }
 
+.hero-image-content {
+  width: 100%;
+}
 /* ********** Menu ********** */
 .menu-btn {
   outline: thin solid var(--first-color);
@@ -387,6 +411,10 @@ p {
     width: 250px;
     height: 75px;
   }
+
+  li {
+    padding: 50px;
+  }
 }
 
 /* ********** Site Styles ********** */
@@ -451,6 +479,10 @@ p {
   text-decoration: none;
 }
 
+.slide h3 {
+  color: #000;
+}
+
 .service-card {
   margin: 1rem auto;
   padding: 1rem;
@@ -486,6 +518,10 @@ p {
   left: 90px;
   bottom: 90px;
   position: fixed;
+}
+
+.gif img {
+  height: 75vh;
 }
 
 @media screen and (min-width: 768px) {
